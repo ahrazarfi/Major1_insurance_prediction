@@ -6,7 +6,7 @@ import numpy as np
 
 application = Flask(__name__)
 
-model = load_model('ahraz_minor2_prediction')
+model = load_model('ahraz_major1_prediction')
 cols = ['age', 'sex', 'bmi', 'children', 'smoker', 'region']
 
 @application.route('/')
